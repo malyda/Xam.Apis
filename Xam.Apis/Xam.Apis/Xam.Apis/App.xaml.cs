@@ -4,6 +4,7 @@ using Xamarin.Forms;
 
 namespace Xam.Apis
 {
+    //C:\Program Files (x86)\Java\jdk1.8.0_131\bin>keytool.exe -list -v -keystore "C:\Users\maly\AppData\Local\Xamarin\Mono for Android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
     public partial class App : Application
 	{
 		public App ()
