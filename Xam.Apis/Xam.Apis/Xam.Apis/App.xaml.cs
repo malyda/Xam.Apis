@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using Xam.Apis.View.Page;
+using Xam.Apis.View.Page.MasterDetailPageApis;
 using Xamarin.Forms;
 
 namespace Xam.Apis
 {
-	public partial class App : Application
+    public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new Xam.Apis.MainPage();
+			MainPage = new MasterDetailPageApis();
 		}
 
 		protected override void OnStart ()
