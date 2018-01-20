@@ -4,7 +4,7 @@
              x:Class="Xam.Apis.View.Page.MapPage"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              xmlns:local="clr-namespace:Xam.Apis;assembly=Xam.Apis"
-             Title="Map">
+             Title="Default Map">
     <ContentPage.Content>
         <Grid >
             <maps:Map

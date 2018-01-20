@@ -10,7 +10,6 @@
             <ListView.ItemsSource>
                     <x:Array Type="{x:Type local:MasterPageItem}">
                     <local:MasterPageItem Title="Map" TargetType="{x:Type pages:MapPage}" />
-                    <local:MasterPageItem Title="Empty page" TargetType="{x:Type pages:Page1}" />
                     <local:MasterPageItem Title="ThirdPartyMaps" TargetType="{x:Type pages:ThirdPartyMaps}" />
                 </x:Array>
                 </ListView.ItemsSource>
