@@ -9,8 +9,8 @@
             <ListView x:Name="listView">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type local:MasterPageItem}">
-                    <local:MasterPageItem Title="Contacts" TargetType="{x:Type pages:MapPage}" />
-                    <local:MasterPageItem Title="TodoList" TargetType="{x:Type pages:Page1}" />
+                    <local:MasterPageItem Title="Map" TargetType="{x:Type pages:MapPage}" />
+                    <local:MasterPageItem Title="Empty page" TargetType="{x:Type pages:Page1}" />
                 </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>

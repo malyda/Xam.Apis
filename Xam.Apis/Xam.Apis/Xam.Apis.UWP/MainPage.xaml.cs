@@ -20,7 +20,7 @@ namespace Xam.Apis.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            Xamarin.FormsMaps.Init("ApsfKCgcxxragsJDdyYf4a6EYg4JQgFucbUhO50FboGSgR-w3grtCE57rgsrz1GB");
             LoadApplication(new Xam.Apis.App());
         }
     }
