@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -20,7 +21,12 @@ namespace Xam.Apis.UWP
         public MainPage()
         {
             this.InitializeComponent();
+            var rendererAssemblies = new[]
+            {
+                typeof(Xamarin.Forms.GoogleMaps.UWP.MapRenderer).GetTypeInfo().Assembly
+            };
             Xamarin.FormsMaps.Init("ApsfKCgcxxragsJDdyYf4a6EYg4JQgFucbUhO50FboGSgR-w3grtCE57rgsrz1GB");
+            Xamarin.FormsGoogleMaps.Init("ApsfKCgcxxragsJDdyYf4a6EYg4JQgFucbUhO50FboGSgR-w3grtCE57rgsrz1GB");
             LoadApplication(new Xam.Apis.App());
         }
     }
